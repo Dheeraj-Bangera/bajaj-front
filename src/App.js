@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function App() {
-  const [input, setInput] = useState('{"data":["M","1","334","4","B"]}');
+  const [input, setInput] = useState("");
   const [response, setResponse] = useState(null);
   const [selectedFilter, setSelectedFilter] = useState('Numbers');
   const [error, setError] = useState('');
